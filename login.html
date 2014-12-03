@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>
+		Login
+	</title>
+	<meta name="description" content=""/>
+</head>
+<body>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-size: 13px;
+			font-family: Arial;
+		}
+		.Header{
+			float: left;
+			width: 100%;
+			height: 100px;
+			background: #d9d9d9;
+		}
+		.Login{
+			float: left;
+			width: 100%;
+			min-height: 500px;
+		}
+		.Login_Center{
+			width: 302px;
+			min-height: 10px;
+			margin: 70px auto 0px auto;
+		}
+		.P_Word{
+			float: left;
+			font-weight: bold;
+			font-size: 17px;
+			padding: 10px 0px;
+			color: #2e3192;
+		}
+		.Login_Input:focus{
+			box-shadow:inset 0px 0px 10px #b1b1b1;
+		}
+		.Login_Input{
+			float: left;
+			width: 280px;
+			padding: 10px 10px;
+			border: 1px #a1a1a1 solid;
+			background: #e5e5e5;
+		}
+		.Submit_Login{
+			float: left;
+			width: 120px;
+			height: 36px;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 22px;
+			background: #2e3192;
+			color: white;
+			margin-left: 87px;
+			border: 1px #2e1192 solid;
+		}
+		.Submit_Login:active{
+			box-shadow:inset 0px 0px 20px #111111;
+		}
+		.Around_Input{
+			float: left;
+			overflow: hidden;
+			padding-bottom: 30px;
+			border-bottom: 1px #d1d1d1 solid;
+		}
+		.SignIn{
+			float: left;
+			width: 300px;
+			overflow: hidden;
+		}
+		.P_SignIn{
+			float: left;
+			width: 300px;
+			padding: 20px 0px;
+			text-align: center;
+		}
+		.P_SignIn a{
+			color: #2e3192;
+		}
+	</style>
+	<div class="Header"></div>
+	<div class="Login">
+		<div class="Login_Center">
+			<div class="Around_Input">
+				<p class="P_Word">Email or Username</p>
+				<input class="Login_Input" placeholder="Email or Username"/>
+				<p class="P_Word">Password</p>
+				<input class="Login_Input" placeholder="Password"/>
+				<p class="P_Word">Forgot your password?</p>
+				<button class="Submit_Login">Login</button>
+			</div>
+			<div class="SignIn">
+				<p class="P_SignIn">Sign in with: <a href="">Gmail</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="Footer"></div>
+</body>
+</html>
